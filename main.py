@@ -1,4 +1,4 @@
-import string,random,models
+import string,random,models,writingsq
 from fastapi import FastAPI
 from pydantic import BaseModel
 app = FastAPI()
@@ -13,7 +13,6 @@ async def root():
     return ("You probably should go to the docs")
 @app.post("/urls/")
 async def get_url(urls:url_data):
-    global res
     res = ''.join(random.choices(string.ascii_letters, k=4))
-    
+    writingsq.write(res)
     return {"Shorted url is": "http://127.0.0.1:8000/"+res}
