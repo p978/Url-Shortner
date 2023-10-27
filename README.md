@@ -17,4 +17,8 @@ You need to run the Following commands:
 - `pip install fast api`
 - You also need to clone the repo using: `git clone https://github.com/p978/Url-Shortner.git`
 
-Usage: 
+# Usage: 
+- Inside the directory where the py file is you'll need to run `uvicorn main:app --reload`. 
+- After that you'll need to go to (http://127.0.0.1:8000/docs)
+**You'll need to write the webisite in `https://website.com` form or `website` only **
+
