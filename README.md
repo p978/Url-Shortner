@@ -20,5 +20,6 @@ You need to run the Following commands:
 # Usage: 
 - Inside the directory where the py file is you'll need to run `uvicorn main:app --reload`. 
 - After that you'll need to go to (http://127.0.0.1:8000/docs)
-**You'll need to write the webisite in `https://website.com` form or `website` only **
+
+**You'll need to write the webisite in `https://website.com` form or `website` only**
 
