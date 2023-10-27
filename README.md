@@ -9,7 +9,12 @@ A project i made for shortening urls
 
 **If you want to recreate this in your own machine you'll need to install the following**
 -  FastApi
--  SQLAlchemy
 -  Uvicorn
 
 # Setup
+You need to run the Following commands:
+- `pip install uvicorn`. Note: If on arch linux you can run this command instead `sudo pacman -S uvicorn`
+- `pip install fast api`
+- You also need to clone the repo using: `git clone https://github.com/p978/Url-Shortner.git`
+
+Usage: 
